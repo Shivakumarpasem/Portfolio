@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Shivakumar | Data Analyst Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <div class="hero-bg"></div>
+  <header>
+    <div class="header-top">
+      <a href="shivakumar-pasem-resume.pdf" class="resume-float-btn" download><i class="fas fa-file-download"></i> Download Resume</a>
+      <div class="header-icons">
+        <a href="https://www.linkedin.com/in/shivakumar-pasem/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Shivakumarpasem/Projects" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    <img src="c:\Users\shiva\OneDrive\Pictures\Shiva_pasem.jpg" alt="Shivakumar" class="profile-pic" />
+    <div class="intro">
+      <h1>Hello, I'm <span class="highlight">Shivakumar</span></h1>
+      <h2>Data Analyst | Data Scientist</h2>
+      <p class="tagline">Turning data into actionable insights. Passionate about analytics, automation, and impactful solutions.</p>
+    </div>
+  </header>
+  <svg class="divider" viewBox="0 0 1440 100" preserveAspectRatio="none"><path d="M0,0 C480,100 960,0 1440,100 L1440,0 L0,0 Z" fill="#2c3e50"/></svg>
+  <nav>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p id="about-short">
+        From a young age, I’ve had a strong passion for mathematics and a deep curiosity for understanding patterns in numbers. This early interest naturally evolved into a fascination with data—how it's structured, what it reveals, and the stories it can tell.
+        <span id="about-ellipsis">... </span>
+        <a href="#" id="about-readmore" onclick="showFullAbout(event)">Continue reading</a>
+      </p>
+      <p id="about-full" style="display:none;">
+        From a young age, I’ve had a strong passion for mathematics and a deep curiosity for understanding patterns in numbers. This early interest naturally evolved into a fascination with data—how it's structured, what it reveals, and the stories it can tell. My enthusiasm for data analysis, combined with a love for sports and a habit of diving into statistics, guided me toward a career in this field.<br><br>
+        I hold a Bachelor's degree in Information Technology and a Master's in Data Science, driven by my commitment to turning curiosity into impactful insights. Over the past three years, I've gained hands-on experience working across different stages of the data lifecycle—analysis, visualization, and reporting—contributing to data-driven decision-making processes.<br><br>
+        What excites me most is how data is transforming every industry, from healthcare and finance to technology and sports. I’m eager to explore new opportunities where I can continue to learn, solve real-world problems, and contribute meaningfully to any field that values the power of data.
+        <a href="#" id="about-readless" onclick="hideFullAbout(event)">Show less</a>
+      </p>
+      <script>
+        function showFullAbout(e) {
+          e.preventDefault();
+          document.getElementById('about-short').style.display = 'none';
+          document.getElementById('about-full').style.display = 'block';
+        }
+        function hideFullAbout(e) {
+          e.preventDefault();
+          document.getElementById('about-full').style.display = 'none';
+          document.getElementById('about-short').style.display = 'block';
+        }
+      </script>
+    </section>
+    <svg class="divider" viewBox="0 0 1440 100" preserveAspectRatio="none"><path d="M0,0 C480,100 960,0 1440,100 L1440,0 L0,0 Z" fill="#3f5873"/></svg>
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <div class="skills-multicolumn">
+        <div class="skills-group">
+          <h3><i class="fas fa-code"></i> Programming & Scripting</h3>
+          <div class="skills-list">
+            <div class="skill-item"><i class="fab fa-python"></i><span>Python</span></div>
+            <div class="skill-item"><i class="fas fa-database"></i><span>SQL</span></div>
+            <div class="skill-item"><i class="fas fa-code-branch"></i><span>PL/SQL</span></div>
+            <div class="skill-item"><i class="fas fa-file-code"></i><span>JSON</span></div>
+            <div class="skill-item"><i class="fas fa-cogs"></i><span>PySpark</span></div>
+          </div>
+        </div>
+        <div class="skills-group">
+          <h3><i class="fas fa-chart-bar"></i> Data Analysis & Visualization</h3>
+          <div class="skills-list">
+            <div class="skill-item"><i class="fas fa-chart-line"></i><span>Power BI</span></div>
+            <div class="skill-item"><i class="fas fa-chart-pie"></i><span>Tableau</span></div>
+            <div class="skill-item"><i class="fas fa-search"></i><span>EDA</span></div>
+            <div class="skill-item"><i class="fas fa-file-alt"></i><span>SQL Reporting</span></div>
+          </div>
+        </div>
+        <div class="skills-group">
+          <h3><i class="fas fa-tools"></i> Version Control & Automation</h3>
+          <div class="skills-list">
+            <div class="skill-item"><i class="fab fa-git-alt"></i><span>Git</span></div>
+            <div class="skill-item"><i class="fas fa-robot"></i><span>Jenkins</span></div>
+            <div class="skill-item"><i class="fas fa-sync-alt"></i><span>CI/CD</span></div>
+          </div>
+        </div>
+        <div class="skills-group">
+          <h3><i class="fas fa-database"></i> Data Engineering & Integration</h3>
+          <div class="skills-list">
+            <div class="skill-item"><i class="fas fa-cloud"></i><span>Oracle Integration</span></div>
+            <div class="skill-item"><i class="fas fa-tasks"></i><span>Airflow</span></div>
+            <div class="skill-item"><i class="fas fa-cloud-upload-alt"></i><span>Azure Data Factory</span></div>
+            <div class="skill-item"><i class="fas fa-cogs"></i><span>PySpark</span></div>
+          </div>
+        </div>
+        <div class="skills-group">
+          <h3><i class="fas fa-robot"></i> Machine Learning & NLP</h3>
+          <div class="skills-list">
+            <div class="skill-item"><i class="fas fa-brain"></i><span>Scikit‑learn</span></div>
+            <div class="skill-item"><i class="fas fa-robot"></i><span>Hugging Face</span></div>
+            <div class="skill-item"><i class="fas fa-language"></i><span>Text Preprocessing</span></div>
+            <div class="skill-item"><i class="fas fa-magic"></i><span>DistilBERT</span></div>
+          </div>
+        </div>
+        <div class="skills-group">
+          <h3><i class="fas fa-cloud"></i> Cloud & Big Data Tools</h3>
+          <div class="skills-list">
+            <div class="skill-item"><i class="fab fa-microsoft"></i><span>Azure</span></div>
+            <div class="skill-item"><i class="fas fa-database"></i><span>Databricks</span></div>
+            <div class="skill-item"><i class="fas fa-snowflake"></i><span>Snowflake</span></div>
+          </div>
+        </div>
+        <div class="skills-group">
+          <h3><i class="fas fa-server"></i> Databases & Warehousing</h3>
+          <div class="skills-list">
+            <div class="skill-item"><i class="fas fa-database"></i><span>Oracle DB</span></div>
+            <div class="skill-item"><i class="fas fa-database"></i><span>MySQL</span></div>
+            <div class="skill-item"><i class="fas fa-database"></i><span>Azure SQL</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg class="divider" viewBox="0 0 1440 100" preserveAspectRatio="none"><path d="M0,0 C480,100 960,0 1440,100 L1440,0 L0,0 Z" fill="#34495e"/></svg>
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="experience-cards">
+        <div class="experience-card">
+          <div class="exp-icon"><i class="fas fa-building"></i></div>
+          <div class="exp-content">
+            <div class="exp-header">
+              <span class="exp-company">Cardinal Health, USA</span>
+              <span class="exp-role">Data Engineer</span>
+              <span class="exp-dates">Feb 2025 – Present</span>
+            </div>
+            <div class="exp-badges">
+              <span class="badge">PySpark</span>
+              <span class="badge">Azure Data Factory</span>
+              <span class="badge">SQL</span>
+              <span class="badge">Databricks</span>
+              <span class="badge">Power BI</span>
+              <span class="badge">Airflow</span>
+              <span class="badge">Jenkins</span>
+            </div>
+            <ul class="exp-list">
+              <li>Engineered high-performance ETL pipelines using PySpark, Azure Data Factory, and SQL, accelerating data availability across clinical analytics systems.</li>
+              <li>Optimized Databricks workflows to improve batch processing efficiency by 35%, reducing delays in daily data refresh jobs.</li>
+              <li>Delivered real-time KPI dashboards in Power BI for clinical and executive teams, automating executive-level reporting workflows by 40%.</li>
+              <li>Implemented robust data quality checks and pipeline monitoring with Apache Airflow DAGs, ensuring consistent batch job execution and reliable data refreshes.</li>
+              <li>Orchestrated Jenkins-based CI/CD workflows, improving deployment reliability and enabling efficient rollback mechanisms.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="experience-card">
+          <div class="exp-icon"><i class="fas fa-code"></i></div>
+          <div class="exp-content">
+            <div class="exp-header">
+              <span class="exp-company">Infosys</span>
+              <span class="exp-role">Junior Data Engineer</span>
+              <span class="exp-dates">May 2021 – Nov 2022</span>
+            </div>
+            <div class="exp-badges">
+              <span class="badge">Oracle ERP</span>
+              <span class="badge">Python</span>
+              <span class="badge">PL/SQL</span>
+              <span class="badge">Power BI</span>
+              <span class="badge">Tableau</span>
+              <span class="badge">Jenkins</span>
+              <span class="badge">JSON</span>
+            </div>
+            <ul class="exp-list">
+              <li>Designed and implemented 10+ Oracle ERP integrations, streamlining procurement and finance workflows and reducing manual reconciliation efforts across departments.</li>
+              <li>Automated data workflows using Python and PL/SQL, saving over 15 hours/week and improving processing consistency.</li>
+              <li>Built data-rich reporting interfaces in Power BI and Tableau from Oracle back-end systems, cutting reporting cycle time by 30% and improving executive visibility into operations.</li>
+              <li>Led cross-functional delivery across QA, analysts, and client teams for 3 enterprise rollouts, ensuring on-time go-lives with zero post-deployment defects.</li>
+              <li>Constructed CI/CD pipelines in Jenkins with integrated JSON schema validation, reducing integration errors by 15% and speeding up release cycles.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="experience-card">
+          <div class="exp-icon"><i class="fas fa-chart-bar"></i></div>
+          <div class="exp-content">
+            <div class="exp-header">
+              <span class="exp-company">Wipro</span>
+              <span class="exp-role">Data Analyst</span>
+              <span class="exp-dates">Apr 2020 – Apr 2021</span>
+            </div>
+            <div class="exp-badges">
+              <span class="badge">Power BI</span>
+              <span class="badge">Tableau</span>
+              <span class="badge">Python</span>
+              <span class="badge">EDA</span>
+              <span class="badge">Azure SQL</span>
+            </div>
+            <ul class="exp-list">
+              <li>Created interactive executive dashboards in Power BI and Tableau to monitor KPIs for logistics and telecom clients, supporting strategic planning and accelerating time-to-insight.</li>
+              <li>Developed Python-based data transformation scripts for cleaning and aggregation tasks, boosting ETL pipeline efficiency by 25% and reducing processing anomalies.</li>
+              <li>Conducted exploratory data analysis (EDA) on high-volume transactional and usage datasets, uncovering behavioral patterns and pricing insights that informed marketing and retention strategies.</li>
+              <li>Collaborated with cross-functional teams and product owners to translate evolving business needs into scalable analytics solutions using Azure SQL Database and Python.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg class="divider" viewBox="0 0 1440 100" preserveAspectRatio="none"><path d="M0,0 C480,100 960,0 1440,100 L1440,0 L0,0 Z" fill="#34495e"/></svg>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-list">
+        <div class="project-row" data-project="cournot">
+          <div class="project-visual">
+            <i class="fas fa-project-diagram project-icon-large" aria-hidden="true"></i>
+          </div>
+          <div class="project-content">
+            <h3>Cournot Oligopoly Market Simulation</h3>
+            <div class="project-badges">
+              <span class="badge">Python</span>
+              <span class="badge">Pandas</span>
+              <span class="badge">NetworkX</span>
+              <span class="badge">Excel</span>
+            </div>
+            <p>Simulated competitive market behavior using Cournot Oligopoly theory, modeling firm interactions through a Barabási Albert network in NetworkX. Visualized strategic outcomes and bridged economic theory with business-ready insights.
+              <button class="project-btn-small" onclick="openModal('cournot')">View more <span class="chevron">&#x25BC;</span></button>
+            </p>
+          </div>
+        </div>
+        <div class="project-row" data-project="pipeline">
+          <div class="project-visual">
+            <i class="fas fa-database project-icon-large" aria-hidden="true"></i>
+          </div>
+          <div class="project-content">
+            <h3>Data Pipeline for Healthcare Analytics</h3>
+            <div class="project-badges">
+              <span class="badge">PySpark</span>
+              <span class="badge">Databricks</span>
+              <span class="badge">Azure Data Factory</span>
+              <span class="badge">Power BI</span>
+            </div>
+            <p>Created an end-to-end pipeline to process patient data for analytics use. Automated task dependencies and data SLA monitoring using Airflow, improving pipeline observability.
+              <button class="project-btn-small" onclick="openModal('pipeline')">View more <span class="chevron">&#x25BC;</span></button>
+            </p>
+          </div>
+        </div>
+        <div class="project-row" data-project="reviewsense">
+          <div class="project-visual">
+            <i class="fas fa-comments project-icon-large" aria-hidden="true"></i>
+          </div>
+          <div class="project-content">
+            <h3>ReviewSense – Sentiment Analysis</h3>
+            <div class="project-badges">
+              <span class="badge">Python</span>
+              <span class="badge">DistilBERT</span>
+              <span class="badge">Hugging Face</span>
+              <span class="badge">NLTK</span>
+            </div>
+            <p>Built a sentiment analysis pipeline using DistilBERT, improving classification accuracy for customer reviews in an e-commerce context.
+              <button class="project-btn-small" onclick="openModal('reviewsense')">View more <span class="chevron">&#x25BC;</span></button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Modal for project details -->
+    <div id="project-modal" class="modal" style="display:none;">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div id="modal-body"></div>
+      </div>
+    </div>
+    <svg class="divider" viewBox="0 0 1440 100" preserveAspectRatio="none"><path d="M0,0 C480,100 960,0 1440,100 L1440,0 L0,0 Z" fill="#34495e"/></svg>
+    <section id="education">
+      <h2>Education</h2>
+      <div class="education-cards">
+        <div class="education-card">
+          <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div class="edu-content">
+            <div class="edu-header">
+              <span class="edu-degree">Master of Science in Data Science</span>
+              <span class="edu-dates">Jan 2023 – Dec 2024</span>
+            </div>
+            <div class="edu-university">University of Massachusetts Dartmouth, USA</div>
+            <div class="edu-badges">
+              <span class="badge">Machine Learning</span>
+              <span class="badge">Big Data Analytics</span>
+              <span class="badge">Data Visualization</span>             
+              <span class="badge">Statistical Analysis</span>
+              <span class="badge">Cloud Computing</span>
+              <span class="badge">Python Programming</span>
+              <span class="badge">Advanced SQL</span>
+            </div>
+          </div>
+        </div>
+        <div class="education-card">
+          <div class="edu-icon"><i class="fas fa-university"></i></div>
+          <div class="edu-content">
+            <div class="edu-header">
+              <span class="edu-degree">Bachelor of Science in Information Technology</span>
+              <span class="edu-dates">Aug 2017 – Sep 2021</span>
+            </div>
+            <div class="edu-university">Jawaharlal Nehru Technological University, India</div>
+            <div class="edu-badges">
+              <span class="badge">Database Management Systems</span>
+              <span class="badge">Computer Networks</span>
+              <span class="badge">Operating Systems</span>
+              <span class="badge">Data Structures & Algorithms</span>
+              <span class="badge">Web Technologies</span>
+              <span class="badge">Java Programming</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg class="divider" viewBox="0 0 1440 100" preserveAspectRatio="none"><path d="M0,0 C480,100 960,0 1440,100 L1440,0 L0,0 Z" fill="#3f5873"/></svg>
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <ul class="cert-list">
+        <li><span class="cert-icon cert-databricks"><i class="fas fa-database"></i></span><span class="cert-title">Databricks Certified Data Engineer Associate</span> <span class="cert-issuer">(Issued by Databricks)</span></li>
+        <li><span class="cert-icon cert-azure"><i class="fab fa-microsoft"></i></span><span class="cert-title">Microsoft Azure Data Fundamentals</span> <span class="cert-issuer">(DP-900)</span></li>
+      </ul>
+    </section>
+    <svg class="divider" viewBox="0 0 1440 100" preserveAspectRatio="none"><path d="M0,0 C480,100 960,0 1440,100 L1440,0 L0,0 Z" fill="#34495e"/></svg>
+  </main>
+  <footer>
+    <p>Contact: <a href="mailto:shivakpasem@gmail.com">shivakpasem@gmail.com</a> &nbsp;|&nbsp; Mobile: <a href="tel:+17743208269">+1 774-320-8269</a></p>
+  </footer>
+  <script>
+    // Fade-in on scroll for sections
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if(entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.2 });
+    document.querySelectorAll('section').forEach(section => {
+      observer.observe(section);
+    });
+    // Modal logic for project details
+    function openModal(project) {
+      const modal = document.getElementById('project-modal');
+      const body = document.getElementById('modal-body');
+      let content = '';
+      if (project === 'cournot') {
+        content = `<h2>Cournot Oligopoly Market Simulation</h2>
+        <ul>
+          <li>Simulated competitive market behavior using Cournot Oligopoly theory, modeling firm interactions through a Barabási Albert network in NetworkX.</li>
+          <li>Conducted exploratory analysis and visualized strategic outcomes to study pricing decisions, market equilibrium, and dynamic competition.</li>
+          <li>Combined data wrangling (Pandas) with Excel-based visualization to bridge economic theory with business-ready insights.</li>
+        </ul>`;
+      } else if (project === 'pipeline') {
+        content = `<h2>Data Pipeline for Healthcare Analytics</h2>
+        <ul>
+          <li>Created an end-to-end pipeline to process patient admission, discharge, and treatment data for analytics use.</li>
+          <li>Crafted operational dashboards to support hospital staffing and resource allocation strategies, enabling data-informed scheduling.</li>
+          <li>Automated task dependencies and data SLA monitoring using Airflow, improving pipeline observability.</li>
+        </ul>`;
+      } else if (project === 'reviewsense') {
+        content = `<h2>ReviewSense – Sentiment Analysis</h2>
+        <ul>
+          <li>Built a sentiment analysis pipeline using DistilBERT, improving classification accuracy for customer reviews in an e-commerce context.</li>
+          <li>Leveraged Hugging Face Transformers and NLTK for text preprocessing, model fine-tuning, and performance optimization, enabling actionable insights into user satisfaction and product feedback.</li>
+          <li>Contributed to more data-informed engagement strategies by uncovering trends in customer sentiment across product categories.</li>
+        </ul>`;
+      }
+      body.innerHTML = content;
+      modal.style.display = 'block';
+    }
+    function closeModal() {
+      document.getElementById('project-modal').style.display = 'none';
+    }
+    // Close modal on outside click
+    window.onclick = function(event) {
+      const modal = document.getElementById('project-modal');
+      if (event.target === modal) {
+        closeModal();
+      }
+    }
+  </script>
+</body>
+</html>

@@ -677,4 +677,44 @@ footer a:hover, footer a:focus {
   }
 }
 
+.resume-dropdown {
+  position: relative;
+  display: inline-block;
+}
+.resume-float-btn .chevron {
+  font-size: 1em;
+  margin-left: 6px;
+}
+.resume-dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background: #2c3e50;
+  min-width: 170px;
+  box-shadow: 0 4px 16px rgba(44,62,80,0.18);
+  border-radius: 10px;
+  z-index: 1000;
+  margin-top: 6px;
+  padding: 6px 0;
+}
+.resume-dropdown-content a {
+  color: #34495e;
+  background: #f1c40f;
+  padding: 10px 18px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  border-radius: 0;
+  transition: background 0.2s, color 0.2s;
+}
+.resume-dropdown-content a:hover {
+  background: #fffbe6;
+  color: #2980b9;
+}
+.resume-dropdown.show .resume-dropdown-content {
+  display: block;
+}
+
 

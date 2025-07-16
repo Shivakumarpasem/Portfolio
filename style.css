@@ -588,6 +588,64 @@ section.visible {
   font-size: 0.98rem;
 }
 
+/* ====== Achievements Section ====== */
+.achievements-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.achievements-list li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: rgba(41, 128, 185, 0.13);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(41,128,185,0.10);
+  padding: 14px 18px;
+  font-size: 1.08rem;
+  transition: box-shadow 0.18s, background 0.18s;
+}
+.achievements-list li:hover {
+  box-shadow: 0 6px 24px rgba(41,128,185,0.18);
+  background: rgba(241,196,15,0.10);
+}
+.ach-icon {
+  font-size: 2rem;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: linear-gradient(135deg, #2980b9 60%, #f1c40f 100%);
+  box-shadow: 0 2px 8px rgba(41,128,185,0.10);
+}
+.ach-title {
+  font-weight: 700;
+  color: #f1c40f;
+  font-size: 1.08rem;
+}
+.ach-details {
+  color: #bfc9d1;
+  font-size: 0.98rem;
+  margin-left: 8px;
+}
+@media (max-width: 700px) {
+  .achievements-list li {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 8px;
+    gap: 8px;
+  }
+  .ach-icon {
+    margin-bottom: 4px;
+  }
+}
+
 footer {
   text-align: center;
   padding: 20px 10px;
